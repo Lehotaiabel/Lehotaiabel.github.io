@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Munkáink | Let's code</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="logo.svg" type="image/svg+xml">
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap"
+		rel="stylesheet" />
+
+	<link rel="stylesheet" href="../munkaink/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<header>
+		<nav>
+			<h1>Let's code</h1>
+
+			<div class="menu">
+				<a href="./kezdolap.html">Kezdőlap</a>
+				<a href="./rolunk.html">Rólunk</a>
+				<a href="./munkaink.html">Munkáink</a>
+			</div>
+
+			<button class="hamburger">
+				<span class="material-icons">menu</span>
+			</button>
+		</nav>
+		<div class="mobile-menu">
+			<a href="./kezdolap.html">Kezdőlap</a>
+			<a href="./rolunk.html">Rólunk</a>
+			<a href="./munkaink.html">Munkáink</a>
+		</div>
+	</header>
+
+	<main>
+		<div class="search-work fadeIn">
+			<input type="text" id="Search" onkeyup="myFunction()" placeholder="Munka keresése..." title="Type in a name">
+		</div>
+		
+		<div id="no-work">
+		<h2>! Nincsenek munkák !</h2>
+		</div>
+
+	</main>
+	<script src="java.js"></script>
+</body>
+
+</html>
