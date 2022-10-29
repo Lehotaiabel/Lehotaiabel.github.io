@@ -292,3 +292,15 @@ main{
 	transform: translate(-50%, -50%);
 	animation: fadeInDown 1s;
   }
+
+  .back-home{
+	text-align: center;
+	padding: 100px;
+	cursor: pointer;
+  }
+
+  .back-home a{
+	text-decoration: none;
+	font-size: large;
+	font-family: 'Oxanium', cursive;
+  }
