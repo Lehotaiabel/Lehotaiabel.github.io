@@ -262,7 +262,6 @@ main{
 	transform: translate(-50%, -50%);
 }
 
-<style type="text/css">
 ::-webkit-scrollbar {
   width: 15px;
   height: 15px;
@@ -296,4 +295,3 @@ main{
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
-</style>
