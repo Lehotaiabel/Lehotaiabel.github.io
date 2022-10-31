@@ -129,6 +129,8 @@ nav h1:hover{
 
 main{
 	display: block;
+	padding: 0;
+	margin: 0;
 }
 
 .team-member{
@@ -254,14 +256,6 @@ main{
 	}
 } 
 
-.mtitle img{
-	width: 50%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
@@ -306,7 +300,7 @@ main{
   }
 
   #preloader{
-	background: url(logo.svg) center center no-repeat;
+	background: url(https://my.spline.design/untitled-80d9edc01dee1a1f132d4ea143c17d7a/) center center no-repeat;
 	background-color: #1c1c1c;
 	background-size: 30%;
 	height: 100vh;
