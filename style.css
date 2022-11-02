@@ -14,8 +14,10 @@ font-family: 'Oxanium', cursive;
 	color: #FFF;
 }
 
+
+
 body{
-	background-image: url("BG.png");
+	background-image: url(BG.svg);
 	background-color: #1c1c1c;
 	background-size: auto;
 	animation: fadeIn 1s;
@@ -40,6 +42,10 @@ nav h1 {
 
 nav h1:hover{
 	cursor: pointer;
+}
+
+nav a{
+	text-decoration: none;
 }
 
 .menu{
