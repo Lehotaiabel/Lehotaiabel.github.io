@@ -300,11 +300,28 @@ main{
   }
 
   #preloader{
-	background: url(https://my.spline.design/untitled-80d9edc01dee1a1f132d4ea143c17d7a/) center center no-repeat;
+	background: url(logo.svg) center center no-repeat;
 	background-color: #1c1c1c;
 	background-size: 30%;
 	height: 100vh;
 	width: 100%;
 	position: fixed;
 	z-index: 100;
+  }
+
+  .mtitle{
+	position:absolute;
+    max-width:45%;
+    max-height:45%;
+    top:50%;
+    left:50%;
+    overflow:visible;
+  }
+
+  .logo{
+	position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-top:-50%;
+    margin-left:-50%;
   }
